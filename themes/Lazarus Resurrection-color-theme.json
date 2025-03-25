@@ -1,11 +1,11 @@
 {
 	"name": "Lazarus Resurrection",
 	"colors": {
-		"editor.background": "#212121",
-		"editor.foreground": "#EEFFFF",
+		"editor.background": "#182026",
+		"editor.foreground": "#263138",
 		"editor.lineHighlightBackground": "#292D3E",
 		"activityBarBadge.background": "#80CBC4",
-		"sideBar.background": "#1E1E1E",
+		"sideBar.background": "#182026",
 		"sideBar.foreground": "#B0BEC5",
 		"statusBar.background": "#0F111A",
 		"statusBar.foreground": "#80CBC4"
