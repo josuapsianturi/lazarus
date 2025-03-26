@@ -68,7 +68,7 @@ Optimized for:
 - JavaScript/TypeScript
 - Python
 - Java
-- C-family languages
+- C-family languages  
 - PHP
 - Markdown
 
