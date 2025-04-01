@@ -119,6 +119,71 @@
 			"settings": {
 				"foreground": "#FB7185"
 			}
+		},
+		{
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#8aa9f9"
+			}
+		},
+		{
+			"scope": [
+				"variable.other",
+				"variable.other.local"
+			],
+			"settings": {
+				"foreground": "#9cdbfb"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.global"
+			],
+			"settings": {
+				"foreground": "#9cdbfb"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.readwrite",
+				"variable.other.readwrite.js"
+			],
+			"settings": {
+				"foreground": "#9cdbfb"
+			}
+		},
+		{
+			"scope": "storage.modifier.php",
+			"settings": {
+				"foreground": "#C792EA"
+			}
+		},
+		{
+			"scope": "storage.modifier.static.php",
+			"settings": {
+				"foreground": "#C792EA"
+			}
+		},
+		{
+			"scope": "storage.type.php",
+			"settings": {
+				"foreground": "#F78C6C"
+			}
+		},
+		{
+			"scope": "variable.other.php",
+			"settings": {
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.assignment.php",
+				"constant.numeric.php"
+			],
+			"settings": {
+				"foreground": "#F78C6C"
+			}
 		}
 	]
 }
