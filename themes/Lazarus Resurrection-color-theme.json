@@ -2,26 +2,11 @@
 	"name": "Lazarus Resurrection Theme",
 	"type": "dark",
 	"colors": {
-		// Core Editor
 		"editor.background": "#182026",
 		"editor.foreground": "#88dbfd",
-		// "editorCursor.foreground": "#5E97EC",
-		// "editor.lineHighlightBackground": "#1A2236",
-		// "editor.selectionBackground": "#2D3A6A80",
-		// "editor.selectionHighlightBackground": "#3A4A7D60",
-		// UI Elements
-		// "activityBar.background": "#182026",
-		// "activityBar.foreground": "#93C5FD",
+		"quickInput.background": "#182026",
 		"sideBar.background": "#182026",
-		// "statusBar.background": "#182026",
-		// "statusBar.foreground": "#88dbfd",
-		// Syntax Highlights
-		// "editor.findMatchBackground": "#F59E0B",
-		// "editor.findMatchHighlightBackground": "#FBBF2460",
-		// "editorBracketMatch.background": "#3A4A7D60",
-		// HTML/CSS Specific
-		// "editor.wordHighlightBackground": "#5E97EC30",
-		// "editor.wordHighlightStrongBackground": "#818CF830"
+		"editorHoverWidget.background": "#182026",
 	},
 	"tokenColors": [
 		{
@@ -183,6 +168,21 @@
 			],
 			"settings": {
 				"foreground": "#F78C6C"
+			}
+		},
+		{
+			"scope": [
+				"markup.heading.markdown",
+				"markup.bold.markdown",
+				"markup.italic.markdown",
+				"markup.inline.raw.markdown",
+				"text.markdown",
+				"punctuation.definition.heading.markdown",
+				"punctuation.definition.bold.markdown",
+				"punctuation.definition.italic.markdown"
+			],
+			"settings": {
+				"foreground": "#ffffff" // pure white
 			}
 		}
 	]

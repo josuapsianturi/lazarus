@@ -50,8 +50,8 @@ For best experience, add these to your `settings.json`:
 {
   "editor.fontFamily": "'Fira Code', 'JetBrains Mono', monospace",
   "editor.fontLigatures": true,
-  "editor.fontSize": 14,
-  "editor.lineHeight": 24,
+  "editor.fontSize": 20,
+  "editor.lineHeight": 40,
   "workbench.colorCustomizations": {
     "[Lazarus Resurrection Theme]": {
       "editor.lineHighlightBackground": "#1e293b80"
