@@ -2,7 +2,7 @@
   "name": "lazarus-resurrection-theme",
   "displayName": "Lazarus Resurrection Theme",
   "description": "A bold, resurrected dark theme — inspired by Lazarus' revival, bringing your code to life with fresh energy",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "publisher": "JosuaSianturi",
   "icon": "assets/logo.png",
   "license": "MIT",
@@ -21,9 +21,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Lazarus Resurrection Theme",
+        "label": "Lazarus Dark Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Lazarus Resurrection-color-theme.json"
+      },
+      {
+        "label": "Lazarus light Theme",
+        "uiTheme": "vs",
+        "path": "./themes/Lazarus-resurrection-light-theme.json"
       }
     ]
   }
