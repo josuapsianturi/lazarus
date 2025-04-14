@@ -2,11 +2,11 @@
 	"name": "Lazarus Resurrection Theme",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#ffffff",
-		"editor.foreground": "#88dbfd",
-		"quickInput.background": "#ffffff",
-		"sideBar.background": "#ffffff",
-		"editorHoverWidget.background": "#ffffff",
+		"editor.background": "#fafafa",
+		"editor.foreground": "#39acb5",
+		"quickInput.background": "#fafafa",
+		"sideBar.background": "#fafafa",
+		"editorHoverWidget.background": "#fafafa",
 	},
 	"tokenColors": [
 		{
@@ -25,7 +25,7 @@
 				"storage"
 			],
 			"settings": {
-				"foreground": "#c9e797",
+				"foreground": "#90b758",
 			}
 		},
 		{
@@ -34,7 +34,7 @@
 				"variable.parameter"
 			],
 			"settings": {
-				"foreground": "#edffff"
+				"foreground": "#39acb5"
 			}
 		},
 		{
@@ -43,7 +43,7 @@
 				"punctuation.definition.string"
 			],
 			"settings": {
-				"foreground": "#c9e797"
+				"foreground": "#90b758"
 			}
 		},
 		{
@@ -60,7 +60,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#c28ee4"
+				"foreground": "#9c3ed9"
 			}
 		},
 		{
@@ -69,7 +69,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#f9cb6b"
+				"foreground": "#e1921d"
 			}
 		},
 		{
@@ -108,7 +108,7 @@
 		{
 			"scope": "entity.name.function",
 			"settings": {
-				"foreground": "#8aa9f9"
+				"foreground": "#6082b8"
 			}
 		},
 		{
@@ -117,7 +117,7 @@
 				"variable.other.local"
 			],
 			"settings": {
-				"foreground": "#9cdbfb"
+				"foreground": "#8fa4ae"
 			}
 		},
 		{
@@ -125,7 +125,7 @@
 				"variable.other.global"
 			],
 			"settings": {
-				"foreground": "#9cdbfb"
+				"foreground": "#8fa4ae"
 			}
 		},
 		{
@@ -134,19 +134,19 @@
 				"variable.other.readwrite.js"
 			],
 			"settings": {
-				"foreground": "#9cdbfb"
+				"foreground": "#8fa4ae"
 			}
 		},
 		{
 			"scope": "storage.modifier.php",
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#9c3ed9"
 			}
 		},
 		{
 			"scope": "storage.modifier.static.php",
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#9c3ed9"
 			}
 		},
 		{
@@ -158,7 +158,7 @@
 		{
 			"scope": "variable.other.php",
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#8fa4ae"
 			}
 		},
 		{
@@ -182,7 +182,7 @@
 				"punctuation.definition.italic.markdown"
 			],
 			"settings": {
-				"foreground": "#ffffff" // pure white
+				"foreground": "#39acb5" // pure white
 			}
 		}
 	]
