@@ -2,7 +2,7 @@
   "name": "lazarus-theme",
   "displayName": "Lazarus Theme",
   "description": "Lazarus is a minimalist, elegant theme for Visual Studio Code that reduces distraction while improving readability and coding flow.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "JosuaSianturi",
   "icon": "assets/logo.png",
   "license": "MIT",
