@@ -1,109 +1,55 @@
-# Lazarus Resurrection Theme
+# Lazarus Theme  
+A calm, modern VS Code theme inspired by clarity and focus.
 
-![Theme Preview](preview.png)
+---
 
-A dark theme for Visual Studio Code that combines deep blues with vibrant accents for optimal code readability and visual appeal. Designed for developers who want a professional yet distinctive coding environment.
+## Table of contents
+- [Getting started](#getting-started)  
+- [Installation](#installation) 
+- [Override theme colors](#override-theme-colors)  
+- [Recommended settings for a better experience](#recommended-settings-for-a-better-experience)
 
-## Features
+---
 
-- **Deep blue background** (#182026) with **cyan text** (#88dbfd) for comfortable viewing
-- **Semantic syntax highlighting** with carefully chosen colors
-- **HTML/CSS optimized** with distinct colors for tags, attributes, and properties
-- **Balanced contrast** for reduced eye strain during long coding sessions
+## Getting started  
+Lazarus is a minimalist, elegant theme for Visual Studio Code that reduces distraction while improving readability and coding flow.
 
-## Installation
+![Dark theme preview](preview.png)
+![Light theme preview](preview-light.png)
+---
 
-1. Open VS Code extensions (Ctrl+Shift+X / Cmd+Shift+X)
-2. Search for "Lazarus Resurrection Theme"
-3. Click Install
-4. Open Command Palette (Ctrl+Shift+P / Cmd+Shift+P)
-5. Select "Preferences: Color Theme"
-6. Choose "Lazarus Resurrection Theme"
+## Installation  
+Launch Quick Open:
 
-## Color Palette
+- **Linux**: `Ctrl + shift + x`  
+- **macOS**: `⌘ + shift + x`  
+- **Windows**: `Ctrl + shift + x`  
 
-| Element               | Color     | Hex       | Sample               |
-|-----------------------|-----------|-----------|----------------------|
-| Background            | Deep Blue | `#182026` | ![][background]      |
-| Foreground Text       | Cyan      | `#88dbfd` | ![][foreground]      |
-| Keywords              | Lime      | `#c9e797` | ![][keywords]        |
-| HTML Tags             | Coral     | `#ef7078` | ![][tags]            |
-| HTML Attributes       | Purple    | `#c28ee4` | ![][attributes]      |
-| CSS Properties        | Blue      | `#93c5fd` | ![][properties]      |
-| CSS Values            | Green     | `#86efac` | ![][values]          |
-| Comments              | Gray      | `#546e7a` | ![][comments]        |
+Paste the following command and search lazarus theme press Enter:
 
-[background]: https://via.placeholder.com/15/182026/000000?text=+
-[foreground]: https://via.placeholder.com/15/88dbfd/000000?text=+
-[keywords]: https://via.placeholder.com/15/c9e797/000000?text=+
-[tags]: https://via.placeholder.com/15/ef7078/000000?text=+
-[attributes]: https://via.placeholder.com/15/c28ee4/000000?text=+
-[properties]: https://via.placeholder.com/15/93c5fd/000000?text=+
-[values]: https://via.placeholder.com/15/86efac/000000?text=+
-[comments]: https://via.placeholder.com/15/546e7a/000000?text=+
+Look for the one authored by **Josua P. Sianturi** and then install.
 
-## Recommended Settings
+---
 
-For best experience, add these to your `settings.json`:
+## Override theme colors  
+You can fully customize the Lazarus theme by overriding specific colors using VS Code's built-in API.  
+Learn more in the [Visual Studio Code Color Theme documentation](https://code.visualstudio.com/api/extension-guides/color-theme).
+
+---
+
+## Recommended settings for a better experience
 
 ```json
 {
-  "editor.fontFamily": "'Fira Code', 'JetBrains Mono', monospace",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 20,
-  "editor.lineHeight": 40,
-  "workbench.colorCustomizations": {
-    "[Lazarus Resurrection Theme]": {
-      "editor.lineHighlightBackground": "#1e293b80"
-    }
-  }
+    // Match Lazarus line spacing
+    "editor.lineHeight": 26,
+    
+    // Enable font ligatures for better syntax highlighting
+    "editor.fontLigatures": true,
+
+    // Clean sidebar
+    "explorer.decorations.badges": false,
+
+    // Font smoothing
+    "terminal.integrated.fontWeight": "500"
 }
-```
-
-## Language Support
-
-Optimized for:
-- HTML/XML
-- CSS/SCSS
-- JavaScript/TypeScript
-- Python
-- Java
-- C-family languages  
-- PHP
-- Markdown
-
-## Customization
-
-To override specific colors:
-
-```json
-{
-  "workbench.colorCustomizations": {
-    "[Lazarus Resurrection Theme]": {
-      "editor.foreground": "#aaddff",
-      "editor.selectionBackground": "#334155"
-    }
-  },
-  "editor.tokenColorCustomizations": {
-    "[Lazarus Resurrection Theme]": {
-      "textMateRules": [
-        {
-          "scope": "entity.name.tag.html",
-          "settings": {
-            "foreground": "#ff9999"
-          }
-        }
-      ]
-    }
-  }
-}
-```
-
-## Contributing
-
-Found an issue or have suggestions?  
-[Open an issue](https://github.com/josuapsianturi/lazarus) or submit a pull request.
-
-## License
-
-MIT ©Josua Sianturi

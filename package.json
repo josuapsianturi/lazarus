@@ -1,8 +1,8 @@
 {
-  "name": "lazarus-resurrection-theme",
-  "displayName": "Lazarus Resurrection Theme",
-  "description": "A bold, resurrected dark theme — inspired by Lazarus' revival, bringing your code to life with fresh energy",
-  "version": "0.1.1",
+  "name": "lazarus-theme",
+  "displayName": "Lazarus Theme",
+  "description": "Lazarus is a minimalist, elegant theme for Visual Studio Code that reduces distraction while improving readability and coding flow.",
+  "version": "1.0.0",
   "publisher": "JosuaSianturi",
   "icon": "assets/logo.png",
   "license": "MIT",
