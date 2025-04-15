@@ -1,4 +1,4 @@
-# Lazarus Theme  
+# Lazarus Vs Code Theme  
 A calm, modern VS Code theme inspired by clarity and focus.
 
 ---
@@ -19,7 +19,7 @@ Lazarus is a minimalist, elegant theme for Visual Studio Code that reduces distr
 ---
 
 ## Installation  
-Launch Quick Open:
+Launch extension Open:
 
 - **Linux**: `Ctrl + shift + x`  
 - **macOS**: `⌘ + shift + x`  
